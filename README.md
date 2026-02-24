@@ -8,7 +8,7 @@ Rename the package to match your project:
 
 1. Update `name` in `pyproject.toml`
 2. Rename `template_python/` to your package name
-3. Run `direnv allow && just bootstrap && just check`
+3. Run `nix develop --command just bootstrap && nix develop --command just check`
 
 ## Project Structure
 
